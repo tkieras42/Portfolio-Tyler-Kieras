@@ -4,7 +4,7 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-rows: ;
     justify-content: center;
     background-color: #F4E9CD;
     margin-left: 20px;
@@ -25,7 +25,39 @@ nav ul {
     gap: 5px;
 }
 
-nav ul li a {
+nav ul li{
+
    border: 10px;
-   border-color: #031926;
 }
+
+main {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.about-me{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 4fr;
+    background-color: #468189;
+}
+
+.about-me h2{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+}
+.about-me img{
+    
+    margin: 15px;
+    border-radius: 10px;
+    border: 10px 10px 10px 10px;
+    border-color: #031926;
+}
+.about-me p{
+    max-height: 240px;
+    margin-right: 20px;
+    background-color: #F4E9CD;
+    text-align: center;
+    text-indent: 20px;
+    }
