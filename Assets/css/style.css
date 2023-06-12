@@ -1,0 +1,31 @@
+body {
+    background-color: #031926;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    background-color: #F4E9CD;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header h1{
+    text-align: center;
+    background-color: #F4E9CD;
+}
+
+nav ul {
+    padding-inline-start: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 300px;
+    gap: 5px;
+}
+
+nav ul li a {
+   border: 10px;
+   border-color: #031926;
+}
